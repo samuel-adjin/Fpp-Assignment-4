@@ -1,7 +1,5 @@
 package problemone;
 
-import java.time.Month;
-
 public class Electronics extends Product{
 
     private double  warrantyCost;
