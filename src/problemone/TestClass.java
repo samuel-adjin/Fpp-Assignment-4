@@ -14,7 +14,7 @@ public class TestClass {
         for (Product product : products) {
             System.out.println(product);
         }
-        System.out.println(sumProducts(products));
+        System.out.println("Sum of all products " + sumProducts(products));
     }
 
 
