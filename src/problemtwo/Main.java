@@ -1,9 +1,6 @@
 package problemtwo;
-
-import javax.swing.*;
-import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+
 import java.util.Scanner;
 
 public class Main {
@@ -25,7 +22,7 @@ public class Main {
         String choice = scanner.nextLine().toUpperCase();
         if (choice.equals("Y")) {
            double totalSalary = 0.00;
-           double averageSalary =0.00;
+           double averageSalary;
            int counter = 0;
            for (DeptEmployee e : department) {
                counter++;
