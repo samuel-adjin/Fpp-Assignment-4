@@ -14,10 +14,6 @@ public class Product {
         return productName;
     }
 
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
-
     public double getPrice() {
         return price;
     }
