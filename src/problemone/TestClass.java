@@ -13,7 +13,6 @@ public class TestClass {
         Product[] products = {laptop, phone, table, hoodie, jacket};
         for (Product product : products) {
             System.out.println(product);
-//            System.out.println("-------------------------------------");
         }
         System.out.println(sumProducts(products));
     }
